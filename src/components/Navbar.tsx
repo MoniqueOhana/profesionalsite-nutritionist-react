@@ -1,12 +1,17 @@
 import { NavLink } from 'react-router-dom'
+import logo from '../assets/logo.png'
 
 function Navbar() {
     return (
-        <nav className="w-full bg-white shadow-md">
-      <div className="max-w-7xl mx-auto px-8 py-5 flex items-center justify-between">
-            <h2>Nutricionista Najara Limeira</h2>
+        <nav className="w-full bg-[#BAE6A7] shadow-md">
+      <div className="max-w-7xl mx-auto px-16 py-7 flex items-center justify-between">
+            <img
+  src={logo}
+  alt="Logo Nutricionista"
+  className="w-[180px] object-contain"
+/>
 
-            <ul className="flex gap-8 text-gray-700 font-medium">
+            <ul className="flex gap-10 text-[#3f3f3f] text-2xl font-bold-600 font-['Suranna']">
                 <li>
             <NavLink
             to="/"
