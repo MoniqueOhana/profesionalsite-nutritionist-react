@@ -13,7 +13,7 @@ return (
             • Equilíbrio • Evolução • Praticidade
         </span>
 
-        <h1 className="text-5xl font-bold text-gray-800 leading-tight mt-6">
+        <h1 className="font-['Suranna'] text-6xl text-gray-800 leading-tight mt-6">
             Performance, saúde e resultados reais sem extremismos
         </h1>
 
