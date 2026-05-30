@@ -9,8 +9,10 @@ function MainLayout() {
 
     <Navbar />
 
-    <main className="flex-1 w-full flex flex-col">
+    <main className="flex-1 w-full flex flex-col pt-40">
+         <div className="pt-20">
         <Outlet />
+        </div>
     </main>
 
     <Footer />

@@ -4,7 +4,7 @@ function Home() {
 return (
     <section className="flex-1 w-full flex justify-center bg-[#fdfaf6]">
 
-    <div className="w-full max-w-7xl px-16 py-20 flex items-center gap-20">
+    <div className="w-full max-w-6xl px-16 py-20 flex items-center gap-20">
 
         {/* TEXTO */}
         <div className="flex-1 max-w-2xl">
@@ -13,7 +13,7 @@ return (
             • Equilíbrio • Evolução • Praticidade
         </span>
 
-        <h1 className="font-['Suranna'] text-6xl text-gray-800 leading-tight mt-6">
+        <h1 className="font-['Cormorant_Garamond'] text-6xl text-gray-800 leading-tight mt-6">
             Performance, saúde e resultados reais sem extremismos
         </h1>
 
